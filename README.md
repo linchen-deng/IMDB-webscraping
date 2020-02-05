@@ -9,4 +9,4 @@ analysis across all the genres we investigated.
 
 
 # Usage
-To check reproducibility, please clone this repository, and source "7-make_file.R" in R Studio. The web scraping might take a long time since we are scraping tens of thousands of movies from the website. Once it is done, a html report will be generated in the same folder. 
+To check reproducibility, please clone this repository, delete everything except all R files, and source "7-make_file.R" in R Studio. The web scraping might take a long time (~2hrs) since we are scraping tens of thousands of movies from the website. Once it is done, a html report will be generated in the same folder. 
