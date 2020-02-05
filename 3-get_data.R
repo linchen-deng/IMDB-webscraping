@@ -22,7 +22,7 @@ if (dir.exists("./web_data") & length(dir(path = "./web_data"))>=0) {
   print("No data saved, scraping from the website...")
   # This will likely take 2 hours if movie_num=8000
   year_data_list <- lapply(genre_list, get_movie_title_year, movie_num=8000)
-  year_data_list <- lapply(complete_data_list, drop_na)
+  year_data_list <- lapply(year_data_list, drop_na)
   if (!dir.exists("./web_data")){
     dir.create(file.path(".", "web_data"))
   }
