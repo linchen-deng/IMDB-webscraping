@@ -1,5 +1,5 @@
 # IMDB-webscraping
-This project in done in collaboration with David Crbonello and Uttam Bhetwel
+This project in done in collaboration with David Crbonello and Uttam Bhetuwal
 
 We are interested in the diffrence in word that appeared in titles by each movie genre, so we webscraped all the titles by each genre
 to see if there is any interesting pattern.
